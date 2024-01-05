@@ -1,4 +1,12 @@
-import { _decorator, Component, Node, Prefab, instantiate, director } from "cc";
+import {
+  _decorator,
+  Component,
+  Node,
+  Prefab,
+  instantiate,
+  director,
+  macro,
+} from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("grassAction")
